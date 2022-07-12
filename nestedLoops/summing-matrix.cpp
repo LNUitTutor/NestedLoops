@@ -19,7 +19,7 @@ void RegionsSumming()
 	{							// перебираємо елементи матриці B
 		for (unsigned j = 0; j < n; ++j)
 		{
-			int s = 0;          // сумуємо елементи відповідної області
+			int s = 0;          // підсумовуємо елементи відповідної області
 			for (unsigned k = 0; k <= i; ++k)
 				for (unsigned l = j; l < n; ++l) s += a[k][l];
 			b[i][j] = s;
